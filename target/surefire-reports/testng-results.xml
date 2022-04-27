@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-27T08:01:09 IST" name="Suite" finished-at="2022-04-27T08:01:25 IST" duration-ms="16920">
+    <groups>
+    </groups>
+    <test started-at="2022-04-27T08:01:09 IST" name="Test" finished-at="2022-04-27T08:01:25 IST" duration-ms="16920">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:tests.LoginTest@291caca8]" started-at="2022-04-27T08:01:09 IST" name="launchApp" finished-at="2022-04-27T08:01:17 IST" duration-ms="8358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="verifyAppTitle()[pri:1, instance:tests.LoginTest@291caca8]" started-at="2022-04-27T08:01:17 IST" name="verifyAppTitle" finished-at="2022-04-27T08:01:17 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAppTitle -->
+        <test-method signature="verifyforgotPassword()[pri:1, instance:tests.LoginTest@291caca8]" started-at="2022-04-27T08:01:17 IST" name="verifyforgotPassword" finished-at="2022-04-27T08:01:17 IST" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyforgotPassword -->
+        <test-method signature="verifyLoginWithValidUserdetails()[pri:2, instance:tests.LoginTest@291caca8]" started-at="2022-04-27T08:01:17 IST" name="verifyLoginWithValidUserdetails" finished-at="2022-04-27T08:01:21 IST" duration-ms="4263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidUserdetails -->
+        <test-method signature="verifyLogout()[pri:3, instance:tests.LoginTest@291caca8]" started-at="2022-04-27T08:01:21 IST" name="verifyLogout" finished-at="2022-04-27T08:01:21 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogout -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:tests.LoginTest@291caca8]" started-at="2022-04-27T08:01:21 IST" name="closeApp" finished-at="2022-04-27T08:01:25 IST" duration-ms="4139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
